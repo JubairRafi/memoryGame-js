@@ -23,6 +23,13 @@ body{
   height: calc(33.33% - 10px);
   position: relative;
   margin: 5px;
+  transform: scale(1);
+}
+
+.memoryCard:active{
+  transform:  scale(.97);
+  transition: transform .2s;
+
 }
 
 .frontFace,.backFace{
